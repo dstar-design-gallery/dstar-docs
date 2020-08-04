@@ -8,7 +8,7 @@
 
 <!-- background color -->
 
-[GitLab](https://csil-git1.cs.surrey.sfu.ca/shovonr/designgallery)
+[GitLab](https://github.com/dstar-design-gallery)
 [Get Started](#get-started)
 
 ![color](#f0f0f0)
