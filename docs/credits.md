@@ -14,6 +14,7 @@ D.Star is being developed at the [Computational Design Lab](http://www.computati
 * Vahid Zahednejad
 * Niloofar Kazemi
 * Doğan Erişen
+* Salman Salem
 
 ## Past Members {docsify-ignore}
 
