@@ -3,7 +3,8 @@
 <br>
 <video width="500" controls>
   <source
-    src="https://vault.sfu.ca/remote.php/webdav/DStar/DStarVideo/DStarIntroduction.mp4" type="video/mp4"
+    src="https://github.com/dstar-design-gallery/dstar-docs/tree/master/media/DStarIntroduction.mp4"
+    type="video/mp4"
   />
   Your browser does not support HTML5 video.
 </video>
