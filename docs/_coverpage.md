@@ -1,13 +1,7 @@
-# D.Star | Design Gallery <small>v0.9</small>
+# D.Star | Design Gallery
 
 <br>
-<video width="500" controls>
-  <source
-    src="https://youtu.be/GweQnoCif2U"
-    type="video/mp4"
-  />
-  Your browser does not support HTML5 video.
-</video>
+<img src="../media/DStarIntroduction.gif" width="500" />
 
 <!-- background color -->
 
