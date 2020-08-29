@@ -1,4 +1,4 @@
-# Get Started
+# Setup Guide
 
 Clone `dstar-docs` from the repository.
 
