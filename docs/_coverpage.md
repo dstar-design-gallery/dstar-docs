@@ -3,7 +3,7 @@
 <br>
 <video width="500" controls>
   <source
-    src="https://github.com/dstar-design-gallery/dstar-docs/tree/master/media/DStarIntroduction.mp4"
+    src="https://github.com/dstar-design-gallery/dstar-docs/tree/master/media/DStarIntroduction.mp4?raw=true"
     type="video/mp4"
   />
   Your browser does not support HTML5 video.
