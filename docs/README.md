@@ -1,4 +1,4 @@
-# Setup Guide
+# Get Started
 
 Clone `dstar-docs` from the repository.
 
@@ -8,7 +8,7 @@ git clone https://github.com/dstar-design-gallery/dstar-docs.git
 
 You will need [docsify](https://docsify.js.org/) to run the docs. It is recommended to install `docsify-cli` globally, which helps initializing and previewing the website locally.
 
-!> **important**: make sure that `node` and `npm` are [installed](https://nodejs.org/en/download/).
+:warning: **important**: make sure that `node` and `npm` are [installed](https://nodejs.org/en/download/).
 
 ```bash
 npm i docsify-cli -g
