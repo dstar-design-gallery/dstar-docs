@@ -4,4 +4,5 @@
 * [Terms & Concepts](terminology.md)
 * [Features & Interactions](features.md)
 * [System Architecture](architecture.md)
+* [Research](research.md)
 * [Credits](credits.md)

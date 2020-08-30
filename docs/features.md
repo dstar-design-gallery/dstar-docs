@@ -38,6 +38,10 @@
 
 ### Cartesian Product
 
+### Binary Query
+
+### Sampling
+
 ## List View
 
 ### Search

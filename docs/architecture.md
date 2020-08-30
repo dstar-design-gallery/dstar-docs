@@ -8,7 +8,7 @@
 
 ### React-D3 Integration
 
-### VS Code and ESLint: Guidelines
+### VS Code and ESLint
 
 ### Concept of View
 
@@ -18,7 +18,7 @@
 
 ### Why NoSQL
 
-### REST API & Websockets
+### REST API & WebSockets
 
 ### API Doc
 
