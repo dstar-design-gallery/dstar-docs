@@ -7,11 +7,9 @@ intended for a technical audience, and it contains information regarding aspects
 application, including its *goals*, *methods* and *usage*, as well as
 specifics about its *installation*, *terminology*, *features*, and *system architecture*.
 
-To suggest an addition or correction, contact the system administrator.
-
 ## What?
 
-D.Star is a novel user interface (UI) to explore the *design space*. To do so, it offers a
+D.Star is a novel user interface to explore the *design space*. To do so, it offers a
 suite of direct interactions with which designers can interact with large number of design
 alternatives.
 
@@ -19,7 +17,7 @@ D.Star runs on any modern web browser.
 
 ## Why?
 
-To explore the design space, designers create many design alternatives, consider
+To explore the design space, designers create many *design alternatives*, consider
 their properties, adjust them as they see fit, and repeat this process
 as many times as needed, until they reach to a solution that they find satisfactory.
 While existing CAD software is good for modelling, they are cumbersome to use for *exploring*.

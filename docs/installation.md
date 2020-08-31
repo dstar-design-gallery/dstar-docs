@@ -38,23 +38,22 @@ mongorestore
 
 This will restore the existing database.
 
-> :warning: Do not empty the database with Mongo Shell commands like `db.collections.remove({})`. This will clear the layout as well.
-> Instead, delete all alternatives / collections *using the Gallery front-end only*.
+> :warning: Do not empty the database with Mongo Shell commands like `db.collections.remove({})`. This will clear the layout as well. Instead, delete all alternatives/collections *using the front-end only*.
 
-1. Install Redis in WSL:
+1. Install **Redis** in WSL:
 
 ```bash
 sudo apt install redis-server
 ```
 
-1. Install NPM packages for `dstar-client`
+1. Install **NPM** packages for `dstar-client`
 
 ```bash
 cd dstar-client
 npm install
 ```
 
-1. Install NPM packages for `dstar-server`
+1. Install **NPM** packages for `dstar-server`
 
 ```bash
 cd dstar-server
@@ -67,7 +66,7 @@ npm install
 
 *All instructions in WSL bash (separate Ubuntu terminals).*
 
-1. Run redis. You need to do this only once per session.
+1. Run **Redis**. You need to do this only once per session.
 
 ```bash
 sudo service redis-server start
@@ -87,23 +86,21 @@ dstar-server
 npm start
 ```
 
-1. Running the frontend in WSL:  
+1. Running the client in WSL:  
 
 ```bash
 cd dstar-client  
 npm start run:dev
 ```
 
-1. Check if Mongo is running. Again, in a new Ubuntu terminal.
+1. Check if **Mongo** is running. Again, in a new terminal.
 
 ```bash
 mongo
 ```
 
-At the prompt, type `use gallery_dev`
-Then type `db.alternatives.find({})`
+At the prompt, type `use gallery_dev`. Then type `db.alternatives.find({})`.
 
-If you see a whole lot of alternatives data, it means your mongo restore was successful.
-You may close this window now.
+If you see a whole lot of alternatives data, it means your mongo restore was successful. You may close this window now.
 
-1. Proceed to running the **Grasshopper**. Instructions are to be found in the DStar repo README.md
+1. Proceed to running the **Grasshopper**. Instructions are to be found in the DStar repo README.md.
