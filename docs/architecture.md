@@ -2,13 +2,13 @@
 
 <img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/master/media/roundtrip.png" />
 
+*a roundtrip*
+
 ***
 
-## Overview
+DStar suite employs a 3+1-tier architecture: the traditional 3 tiers correspond to **dstar-client** (presentation), **dstar-server** (application), **dstar-database** (data), while the connection between server and parametric modeller adds a 4th tier, **dstar-connector** (model), that allows direct interaction between the aspect and the model. Each tier is developed with different tools and can be hosted on separate locations -ideally on the cloud.
 
-DStar suite employs a 4-tier architecture: the traditional 3 tiers correspond to **dstar-client** (presentation), **dstar-server** (application), **dstar-database** (data), while the connection between server and parametric modeller adds a 4th tier, **dstar-connector** (model), that allows direct interaction between the aspect and the model. Each tier is developed with different tools and can be hosted on separate locations -ideally on the cloud.
-
-### Client
+## Client
 
 * React-D3 Integration
 
@@ -16,18 +16,16 @@ DStar suite employs a 4-tier architecture: the traditional 3 tiers correspond to
 
 * Large-Screen-First  
 
-### Server
+## Server
 
 * REST API & WebSockets
 
 * API Doc
 
-### Database
+## Database
 
 * Why NoSQL?
 
-### Connector
+## Connector
 
 * CAD-Neutrality
-
-<img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/master/media/roundtrip2.png" />

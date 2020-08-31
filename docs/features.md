@@ -1,12 +1,10 @@
 # Features and Interactions
 
-***
-
-## one object-many views
+## One Object-Many Views
 
 ## cumulative selection
 
-## universal selection
+## Universal Selection
 
 ## View in 3D
 
@@ -24,9 +22,9 @@
 
 ## Parallel View
 
-### drag axis
+### Drag Axis
 
-### brushing
+### Brushing
 
 ### Hovering
 
@@ -49,5 +47,3 @@
 ### Order
 
 ### View Image
-
-### View in 3D
