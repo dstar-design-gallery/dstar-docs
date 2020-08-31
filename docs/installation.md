@@ -2,122 +2,105 @@
 
 ***
 
-There are two ways to install D.Star for development:
+## Setup
 
-1. Install D.Star UI with Remote Server
-2. Install D.Star UI with Local Server
+1. Clone dstar-client in Windows using git `bash`:
 
-## 1. with Remote Server
-
-1. Install the latest version of **Node** for your system at [here](https://nodejs.org/en/download/). This also installs **npm** (*node package manager*) automatically.
-
-?> **tip**: make sure that `node` and `npm` are installed by typing on command line:
-
-```bash
-node -v
-(v10.15.0)
-npm -v
-(6.11.3)
+```bash  
+git clone https://github.com/dstar-design-gallery/dstar-client.git  
+cd dstar-client  
+git checkout develop  
 ```
 
-2. Clone `designgallery`.
+1. Clone dsar-server in Windows using git `bash`:
 
 ```bash
-git clone https://csil-git1.cs.surrey.sfu.ca/shovonr/designgallery.git
+git clone https://github.com/dstar-design-gallery/dstar-server.git 
+cd dstar-server
+git checkout develop
 ```
 
-3. Create your own branch.
+1. Install Node.js and NPM in WSL: [instructions](https://www.rosehosting.com/blog/install-npm-on-ubuntu-16-04/).  
+
+1. Install MongoDB in WSL:: [instructions](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
 
 ```bash
-git checkout -b myBranch master
+sudo apt-get install -y mongodb-org=4.2.5 mongodb-org-server=4.2.5 mongodb-org-shell=4.2.5 mongodb-org-mongos=4.2.5 mongodb-org-tools=4.2.5
 ```
 
-4. Locate the installation directory. Then install the project dependencies. 
+1. After that:
 
 ```bash
+tar -xzvf dump.tar.gz  
+cd dump  
+mongorestore
+```
+
+This will restore the existing database.
+
+> :warning: Do not empty the database with Mongo Shell commands like `db.collections.remove({})`. This will clear the layout as well. Instead, delete all alternatives/collections *using the front-end only*.
+
+1. Install **Redis** in WSL:
+
+```bash
+sudo apt install redis-server
+```
+
+1. Install **NPM** packages for `dstar-client`
+
+```bash
+cd dstar-client
 npm install
 ```
 
-5. Finally, run:
+1. Install **NPM** packages for `dstar-server`
 
 ```bash
-npm start
-```
-
-A browser window will open and redirect to `http://localhost:3000`
-
-## 2. with Local Server
-
-Do steps **1.** to **5.** above. Then:
-
-1. To run your own server, you will need to install the latest version of MongoDB. Installation 
-guides are offered at [here](https://docs.mongodb.com/manual/installation/) for **Windows**, **MacOS** and **Linux** users
-
-?> **tip**: after setup, make sure `mongodb` is installed by typing: 
-
-```bash
-mongo --version
-```
-
-2. Clone `designgallery-server`.
-
-```bash
-git clone https://csil-git1.cs.surrey.sfu.ca/vzahedne/designgallery-server.git
-```
-
-3. Create your own branch.
-
-```bash
-git checkout -b myBranch master
-```
-
-4. Locate the installation directory. Then install the project dependencies.
-
-```bash
+cd dstar-server
 npm install
 ```
 
-5. In `designgallery`, locate to `url.js`, under `src/constants`. There, replace:
+> :information_source: You may have package specific problems, but they can only be solved case-by-case.
 
-```javascript
-const host = 'sr-02645.iat.sfu.ca:5050';
-```
+## Running
 
-with
+*All instructions in WSL bash (separate Ubuntu terminals).*
 
-```javascript
-const host = ‘localhost:5050';
-```
-
-6. In terminal, run mongoDB’s host process deamon, `mongod`, by typing:
+1. Run **Redis**. You need to do this only once per session.
 
 ```bash
-mongod
+sudo service redis-server start
 ```
 
-7. Next, you'll need to install `Redis`. Download it from [here](https://redis.io/download). Then, in terminal, run:
-
-```bash
-redis-server
-```
-
-Open another terminal tab, then run:
+Then:
 
 ```bash
 redis-cli
-set untitlednum 0
+SET untitlednum 0
 ```
 
-8. You will now need a database dump to populate your local server. Extract `dump.zip` and use:
+1. Running the server in WSL:  
 
 ```bash
-mongorestore dump
+dstar-server
+npm start
 ```
 
-9. Finally, in `designgallery-server` folder, run:
+1. Running the client in WSL:  
 
 ```bash
-npm run start:dev
+cd dstar-client  
+npm start run:dev
 ```
 
-10. Refresh `http://localhost:3000` and you should now see some collections and alternatives on the UI.
+1. Check if **Mongo** is running. Again, in a new terminal.
+
+```bash
+mongo
+```
+
+At the prompt, type `use gallery_dev`. Then type `db.alternatives.find({})`.
+
+If you see a whole lot of alternatives data, it means your mongo restore was successful. You may close this window now.
+
+1. Proceed to running the **Grasshopper**. Instructions are to be found in the DStar repo README.md.
