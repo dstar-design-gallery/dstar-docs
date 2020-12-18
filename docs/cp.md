@@ -12,11 +12,23 @@ For instance, limiting n to 2 and k to 4 produces 32 alternatives. The Cartesian
 tends to produce converging designs that do not radically differ from their arguments.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/master/media/cp-init" width="400" />
+    <img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/develop/media/cp-init.png" width="800" />
     <figcaption>(a) Two alternatives selected</figcaption>
 </figure>
 
 <figure>
-    <img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/master/media/cp-done" width="400" />
+    <img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/develop/media/cp-done.png" width="800" />
     <figcaption>(b) Coordinates selected for the Cartesian Product</figcaption>
 </figure>
+
+<figure>
+    <img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/develop/media/cp-result.png" width="800" />
+    <figcaption>(c) Cartesian Product result</figcaption>
+</figure>
+
+The **Cartesian Product** produces alternatives by taking all combinations
+of a set of input parameters from two or more alternatives. It produces a complete
+graph between each adjacent pair of parallel coordinates. The figure shows the state
+of the interface with two alternatives selected for the Cartesian Product, with four
+coordinates selected for the product and the results (in another collection) with the
+two original alternatives selected.
