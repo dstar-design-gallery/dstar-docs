@@ -52,7 +52,7 @@ D.Star is all about handling multiple alternatives, so the most frequent selecti
 
 `CTRL-C` -- Copies the currently selected collections to the collections clipboard.
 
-`CTRL-` -- Cuts the currently selected collections to the collections clipboard.
+`CTRL-X` -- Cuts the currently selected collections to the collections clipboard.
 
 `CTRL-V` -- Pastes as a *reference* the contents of the collections clipboard.
 
