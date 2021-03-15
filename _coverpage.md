@@ -1,7 +1,7 @@
 # D.Star | Design Gallery
 
 <br>
-<img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/master/media/DStarIntroduction.gif" width="400" />
+<img src="media/DStarIntroduction.gif" width="400" />
 
 <!-- background color -->
 

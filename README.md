@@ -14,8 +14,18 @@ You will need [docsify](https://docsify.js.org/) to run the docs. It is recommen
 npm i docsify-cli -g
 ```
 
-Run the local server with `docsify serve`. You can preview your site in your browser on `http://localhost:3000`
+Run the local server with `docsify serve`. You can preview your site in your browser on `http://localhost:3000`.
 
 ```bash
 docsify serve
 ```
+
+To add new pages, add them to `_sidebar.md`:
+
+```markdown
+* [Get Started](/)
+* [Introduction](introduction.md)
+* [Your New Page](yourNewPage.md)
+```
+
+Images should be located under `media` folder.
