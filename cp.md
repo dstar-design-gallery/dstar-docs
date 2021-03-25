@@ -12,17 +12,17 @@ For instance, limiting n to 2 and k to 4 produces 32 alternatives. The Cartesian
 tends to produce converging designs that do not radically differ from their arguments.
 
 <figure>
-    <img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/develop/media/cp-init.png" width="800" />
+    <img src="media/cp-init.png" width="800" />
     <figcaption>(a) Two alternatives selected</figcaption>
 </figure>
 
 <figure>
-    <img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/develop/media/cp-done.png" width="800" />
+    <img src="media/cp-done.png" width="800" />
     <figcaption>(b) Coordinates selected for the Cartesian Product</figcaption>
 </figure>
 
 <figure>
-    <img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/develop/media/cp-result.png" width="800" />
+    <img src="media/cp-result.png" width="800" />
     <figcaption>(c) Cartesian Product result</figcaption>
 </figure>
 

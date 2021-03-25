@@ -1,6 +1,6 @@
 # System Architecture
 
-<img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/master/media/roundtrip.png" />
+<img src="./master/media/roundtrip.png" />
 
 ***
 
@@ -30,4 +30,4 @@ DStar suite employs a 4-tier architecture: the traditional 3 tiers correspond to
 
 * CAD-Neutrality
 
-<img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/master/media/roundtrip2.png" />
+<img src="./master/media/roundtrip2.png" />

@@ -2,7 +2,7 @@
 
 ***
 
-<img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/master/media/DStarIntroduction.gif" width="400" />
+<img src="./media/DStarIntroduction.gif" width="400" />
 
 *parametric modeller to the right, DStar UI to the left*
 
