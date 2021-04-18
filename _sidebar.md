@@ -1,6 +1,7 @@
 * [Get Started](/)
 * [Introduction](introduction.md)
 * [Installation Guide](installation.md)
+* [API Documentations](apis.md)
 * [Terms & Concepts](terminology.md)
 * [Features & Interactions](features.md)
 * [System Architecture](architecture.md)

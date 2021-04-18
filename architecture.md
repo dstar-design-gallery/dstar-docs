@@ -1,6 +1,6 @@
 # System Architecture
 
-<img src="https://raw.githubusercontent.com/dstar-design-gallery/dstar-docs/master/media/roundtrip.png" />
+<img src="./media/roundtrip.png" />
 
 ***
 
