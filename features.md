@@ -10,25 +10,23 @@ your current focus lies. `Right-click` to access the main menu.
 
 ![The main D.Star menu](media/DStarMainMenu.png)
 
-
 <!--- a comment --->
 
 The main menu provides seven categories. Some categories are single commands.
 
- ![DStar](DStar.png) -- accesses the main D.Star interface; gives local project information
+ ![DStar](media/DStar_tiny.png) -- accesses the main D.Star interface; gives local project information
 
  ![deselect](media/deselect.png)  -- deselects all collections and alternatives. This is frequently used.
 
  ![help](media/help.png) -- accesses these help pages
- 
+
  ![sink](media/sink.png) -- accesses the `sink`, from where *sunk* collections can be restored.
 
  ![settings](media/settings.png) -- accesses the D.Star settings
- 
- ![log](media/log.png) -- displays logs
- 
- ![collection](media/collection.png) -- accesses a menu of commands on collections
 
+ ![log](media/log.png) -- displays logs
+
+ ![collection](media/collection.png) -- accesses a menu of commands on collections
 
 ## One object--many views: references and clones
 
@@ -38,13 +36,11 @@ D.Star provides multiple coordinated views of collections: a collection can be v
 
 D.Star provides *projects.* Typically these comprise alternatives that have a common parametric model.  One project at a time may be open.
 
-
 ## Selection
 
 D.Star has two distinct object types: collections and alternatives. Collections hold alternatives; they are the main organization tool in D.Star. D.Star maintains two distinct selection sets, one for collections and one for alternatives. It needs these because many commands require both a set of collections and a set of alternatives in their arguments.
 
 D.Star is all about handling multiple alternatives, so the most frequent selection tasks involve selecting multiple objects. In D.Star, selection is cumulative by default. Clicking on an object adds it to the currently selected set of objects.
-
 
 ## Cut, copy and paste
 
@@ -58,8 +54,7 @@ D.Star is all about handling multiple alternatives, so the most frequent selecti
 
 `CTRL-B` -- Pastes as a *clone* the contents of the collections clipboard. The resulting collection is a clone, but the alternatives in it are references.
 
-`CTRL-SHIFT-B' -- Pastes as a *deep clone* the contents of the collections clipboard. The resulting collection is a clone as are all of its alternatives. Both collection and alternatives are independent of other objects in the project.
-
+`CTRL-SHIFT-B` -- Pastes as a *deep clone* the contents of the collections clipboard. The resulting collection is a clone as are all of its alternatives. Both collection and alternatives are independent of other objects in the project.
 
 ### Alternatives
 
@@ -71,17 +66,11 @@ D.Star is all about handling multiple alternatives, so the most frequent selecti
 
 `ALT-B` -- Pastes as a *clone* the contents of the alternatives clipboard. The paste operation applies to each of the currently selected collections.
 
-
-
-
-
-
 ## cumulative selection
 
 ## universal selection
 
 ## View in 3D
-
 
 ## Messages & History
 
@@ -120,5 +109,3 @@ D.Star is all about handling multiple alternatives, so the most frequent selecti
 ### Order
 
 ### View Image
-
-### View in 3D
