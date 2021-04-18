@@ -181,7 +181,7 @@
 #### Login
 <pre>
 	<b>Url</b>: /user/login
-	<b>Method</b>: POST	
+	<b>Method</b>: POST
 	<b>Description</b>: it logs in to an existing account
 	<b>Headers</b>:{
 	}
@@ -199,7 +199,7 @@
 #### Registere
 <pre>
 	<b>Url</b>: /user/register
-	<b>Method</b>: POST	
+	<b>Method</b>: POST
 	<b>Description</b>: it creates a new account
 	<b>Headers</b>:{
 	}
@@ -208,7 +208,7 @@
 		password:@string
 	}
 	<b>Response</b>:{
-		success:@boolean,		
+		success:@boolean,
 		user:<a href="#/apis?id=users">@User</a>
 	}
 </pre>
@@ -218,7 +218,7 @@
 #### Fetch
 <pre>
 	<b>Url</b>: /project
-	<b>Method</b>: GET	
+	<b>Method</b>: GET
 	<b>Description</b>: it fethes all the projects
 	<b>Headers</b>:{
 		userid:@string
@@ -226,7 +226,7 @@
 	<b>Body</b>:{
 	}
 	<b>Response</b>:{
-		success:@boolean,		
+		success:@boolean,
 		projects:array(<a href="#/apis?id=projects">@Project</a>),
 		db_loaded:@boolean
 	}
@@ -235,7 +235,7 @@
 #### Create
 <pre>
 	<b>Url</b>: /project
-	<b>Method</b>: POST	
+	<b>Method</b>: POST
 	<b>Description</b>: it creates a new projecct
 	<b>Headers</b>:{
 		userid:@string
@@ -245,7 +245,7 @@
 		description:@string
 	}
 	<b>Response</b>:{
-		success:@boolean,		
+		success:@boolean,
 		projects:array(<a href="#/apis?id=projects">@Project</a>),
 		db_loaded:@boolean
 	}
@@ -254,7 +254,7 @@
 #### Select
 <pre>
 	<b>Url</b>: /project/select
-	<b>Method</b>: POST	
+	<b>Method</b>: POST
 	<b>Description</b>: it selects a new projecct
 	<b>Headers</b>:{
 		userid:@string
@@ -263,7 +263,7 @@
 		id:@string
 	}
 	<b>Response</b>:{
-		success:@boolean,		
+		success:@boolean,
 		project:<a href="#/apis?id=projects">@Project</a>
 	}
 </pre>
@@ -271,7 +271,7 @@
 #### Update (NIY)
 <pre>
 	<b>Url</b>: /project
-	<b>Method</b>: PUT	
+	<b>Method</b>: PUT
 	<b>Description</b>: it updates a new projecct
 	<b>Headers</b>:{
 		userid:@string
@@ -280,7 +280,7 @@
 		projects:array(<a href="#/apis?id=projects">@Project</a>)
 	}
 	<b>Response</b>:{
-		success:@boolean,		
+		success:@boolean,
 		projects:array(<a href="#/apis?id=projects">@Project</a>)
 	}
 </pre>
@@ -289,7 +289,7 @@
 
 <pre>
 	<b>Url</b>: /layout
-	<b>Method</b>: Get	
+	<b>Method</b>: Get
 	<b>Description</b>: it fetches all the layouts
 	<b>Headers</b>:{
 		userid:@string,
@@ -307,7 +307,7 @@
 #### Fetch
 <pre>
 	<b>Url</b>: /collections
-	<b>Method</b>: GET	
+	<b>Method</b>: GET
 	<b>Description</b>: it fetches all the collections or the specified ones
 	<b>Headers</b>:{
 		userid:@string,
@@ -320,7 +320,7 @@
 #### Create
 <pre>
 	<b>Url</b>: /collections
-	<b>Method</b>: POST	
+	<b>Method</b>: POST
 	<b>Description</b>: it creates a new collection or the specified number of collections
 	<b>Headers</b>:{
 		userid:@string,
@@ -335,7 +335,7 @@
 #### Update
 <pre>
 	<b>Url</b>: /collections
-	<b>Method</b>: PUT	
+	<b>Method</b>: PUT
 	<b>Description</b>: it updates specified collections
 	<b>Headers</b>:{
 		userid:@string,
@@ -348,7 +348,7 @@
 #### Renaming
 <pre>
 	<b>Url</b>: /collections/renaming
-	<b>Method</b>: PUT	
+	<b>Method</b>: PUT
 	<b>Description</b>: it renames specified collections
 	<b>Headers</b>:{
 		userid:@string,
@@ -361,7 +361,7 @@
 #### Remove
 <pre>
 	<b>Url</b>: /collections
-	<b>Method</b>: DELETE	
+	<b>Method</b>: DELETE
 	<b>Description</b>: it removes specified collections
 	<b>Headers</b>:{
 		userid:@string,
@@ -376,7 +376,7 @@
 #### Copy With Ref
 <pre>
 	<b>Url</b>: /collections/copy/ref
-	<b>Method</b>: POST	
+	<b>Method</b>: POST
 	<b>Description</b>: it copies collections with refrence to the original collections
 	<b>Headers</b>:{
 		userid:@string,
@@ -392,7 +392,7 @@
 #### Clone
 <pre>
 	<b>Url</b>: /collections/clone
-	<b>Method</b>: POST	
+	<b>Method</b>: POST
 	<b>Description</b>: it clones collections with no refrence to the original collections. The alternatives inside the collection will have refrence to the original alternatives.
 	<b>Headers</b>:{
 		userid:@string,
@@ -408,7 +408,7 @@
 #### Deep Clone
 <pre>
 	<b>Url</b>: /collections/clone/deep
-	<b>Method</b>: POST	
+	<b>Method</b>: POST
 	<b>Description</b>: it clones collections with no refrence to the original collections. The alternatives inside the collection will not have refrence to the original alternatives.
 	<b>Headers</b>:{
 		userid:@string,
@@ -424,7 +424,7 @@
 #### Sink
 <pre>
 	<b>Url</b>: /collections/sink
-	<b>Method</b>: POST	
+	<b>Method</b>: POST
 	<b>Description</b>: it puts a collection into the sink
 	<b>Headers</b>:{
 		userid:@string,
@@ -444,7 +444,7 @@
 #### Cartesian Product
 <pre>
 	<b>Url</b>: /computeCP
-	<b>Method</b>: POST	
+	<b>Method</b>: POST
 	<b>Description</b>: <a href="#/cp">Check the description here</a>
 	<b>Headers</b>:{
 		userid:@string,
@@ -466,17 +466,10 @@
 #### Clean Database
 <pre>
 	<b>Url</b>: /clean-db?projectId=
-	<b>Method</b>: Get	
-	<b>Description</b>: it removes everything in a project 
+	<b>Method</b>: Get
+	<b>Description</b>: it removes everything in a project
 	<b>Body</b>:{}
 	<b>Response</b>:{
 		success:@boolean
 	}
 </pre>
-
-
-
-
-
-
-
